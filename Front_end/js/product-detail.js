@@ -1,5 +1,6 @@
+
 document.addEventListener('DOMContentLoaded', function() {
-    const API_BASE_URL = 'http://localhost:3000';
+    const API_BASE_URL = 'https://flower-shop-back-end.onrender.com';
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get('id');
 
