@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm - FlowerCorner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+        <div class="container">
+            <div class="product-detail-layout" id="product-detail-content">
+                <div class="product-image-gallery">
+                    <img src="" alt="" id="product-image">
+                </div>
+                <div class="product-info">
+                    <h1 id="product-name">Đang tải...</h1>
+                    <div class="price-section">
+                        <span class="sale-price" id="product-price"></span>
+                        <span class="original-price" id="product-original-price"></span>
+                        <span class="discount-tag" id="product-discount"></span>
+                    </div>
+                    <p class="vat-info">Giá đã bao gồm 8% VAT</p>
+
+                    <div class="promo-section">
+                        <span class="promo-title">Khuyến mãi:</span>
+                        <span class="promo-tag">Giảm 50K</span>
+                        <span class="promo-tag">Giảm 25K</span>
+                    </div>
+
+                    <div class="contact-section">
+                        <span>Gọi ngay: <a href="tel:1900633045">1900 633 045</a></span>
+                    </div>
+
+                    <div class="shipping-section">
+                        <p><strong>Vận chuyển:</strong> Miễn phí giao hoa khu vực nội thành TP.HCM & Hà Nội</p>
+                        <div class="shipping-options">
+                            <select><option>Hà Nội</option><option>TP. Hồ Chí Minh</option></select>
+                            <select><option>Quận Ba Đình</option><option>Quận Hoàn Kiếm</option></select>
+                        </div>
+                    </div>
+                    
+                    <div class="quantity-section">
+                        <label for="quantity">Qty</label>
+                        <input type="number" id="quantity" value="1" min="1">
+                    </div>
+
+                    <div class="actions-section">
+                        <button class="btn-add-to-cart">ĐẶT HÀNG</button>
+                        <button class="btn-buy-now">ĐẶT NHANH</button>
+                    </div>
+
+                    <div class="value-props-section">
+                        <div class="prop-item">🚚 Giao hoa NHANH trong 60 phút</div>
+                        <div class="prop-item">💌 Tặng miễn phí thiệp hoặc banner</div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-description-section">
+                <h3>Mô tả sản phẩm</h3>
+                <div id="product-description"></div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/product-detail.js"></script>
+</body>
+</html>
